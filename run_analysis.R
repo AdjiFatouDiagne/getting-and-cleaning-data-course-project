@@ -77,8 +77,7 @@ humanActivity <- humanActivity[, columnsToKeep]
 
 
 ##############################################################################
-# 3. Using descriptive activity names to name the activities in the data
-#          set
+# 3. Using descriptive activity names to name the activities in the dataset
 ##############################################################################
 
 # replace activity values with named factor levels
