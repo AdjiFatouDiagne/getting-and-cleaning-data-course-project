@@ -1,4 +1,4 @@
-Code book for Coursera Getting and Cleaning Data course project
+# Code book for Coursera Getting and Cleaning Data course project
 
 The data set that this code book pertains to is located in the tidy_data.txt file of this repository.
 
@@ -29,7 +29,7 @@ Identifiers
         STANDING: subject was standing
         LAYING: subject was laying
 
-Average of measurements
+## Average of measurements
 
 All measurements are floating-point values, normalised and bounded within [-1,1].
 
@@ -43,7 +43,7 @@ The measurements are classified in two domains:
 
     Frequency-domain signals (variables prefixed by frequencyDomain), resulting from the application of a Fast Fourier Transform (FFT) to some of the time-domain signals.
 
-Time-domain signals
+## Time-domain signals
 
     Average time-domain body acceleration in the X, Y and Z directions:
         timeDomainBodyAccelerometerMeanX
@@ -115,7 +115,7 @@ Time-domain signals
         timeDomainBodyGyroscopeJerkMagnitudeMean
         timeDomainBodyGyroscopeJerkMagnitudeStandardDeviation
 
-Frequency-domain signals
+## Frequency-domain signals
 
     Average frequency-domain body acceleration in the X, Y and Z directions:
         frequencyDomainBodyAccelerometerMeanX
@@ -182,7 +182,7 @@ Frequency-domain signals
         frequencyDomainBodyGyroscopeJerkMagnitudeStandardDeviation
         frequencyDomainBodyGyroscopeJerkMagnitudeMeanFrequency
 
-Transformations
+## Transformations
 
 The zip file containing the source data is located at https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip.
 
